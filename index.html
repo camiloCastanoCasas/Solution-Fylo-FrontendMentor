@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Fylo landing page with two column layout</title> 
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <header class="contenedor header">
+    <div class="barra">
+      <a href="/">
+        <img src="images/logo.svg" alt="Logo" class="logo">
+      </a>
+      <nav class="navegacion">
+          <a href="#" class="navegacion__enlace">Features</a>
+          <a href="#" class="navegacion__enlace">Team</a>
+          <a href="#" class="navegacion__enlace">Sign in</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="contenedor start">
+    <img src="images/illustration-1.svg" alt="">
+    <div class="contenido">
+      <h1 class="contenido__titulo">All your files in one secure location, accessible anywhere.</h1>
+      <p class="contenido__parrafo">Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.</p>
+      <form class="contenido__formulario">
+          <input type="email" placeholder="Enter your email..." class="correo">
+          <input type="submit" value="Get Started" class="boton">
+      </form>
+    </div>
+  </div>
+  
+  <main class="main">
+    <div class="contenedor-main contenedor">
+      <img src="images/illustration-2.svg" alt="" class="second-ilustracion">
+      <div class="contenido-principal"> 
+        <h2 class="contenido-principal__titulo">Stay productive, wherever you are</h2>
+        <p class="contenido-principal__parrafo">Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.</p>
+        <p class="contenido-principal__parrafo">
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!</p>
+        </p>
+        <div class="enlace">
+          <a href="#" class="contenido-principal__enlace">
+            See how Fylo works <img src="images/icon-arrow.svg" alt="">
+          </a>
+        </div>
+        <div class="card">
+          <img src="images/icon-quotes.svg" alt="" class="card__img">
+          <p class="card__parrafo">Fylo has improved our team productivity by an order of magnitude. Since 
+          making the switch our team has become a well-oiled collaboration machine.</p>
+          <div class="card__autor">
+            <img src="images/avatar-testimonial.jpg" alt="" class="card__autor-img">
+            <div class="card-informacion__autor">
+              <h3 class="card__autor-name">Kyle Burton</h3>
+              <h4 class="card__autor-ceo">Founder & CEO, Huddle</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="get-early">
+    <div class="contenedor get-early__contenido">
+      <div class="contenido-get">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <form class="get-early__formulario">
+        <input type="email" placeholder="email@example.com" class="correo">
+        <input type="submit" value="Get Started For Free" class="boton">
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="contenedor contenido-footer">
+      <a href="/">
+        <img src="images/logo.svg" alt="Logo" class="logo-footer">
+      </a>
+      <div class="informacion__footer">
+        <ul class="lista">
+          <li>
+            <img src="images/icon-phone.svg" alt="">
+            Phone: +1-543-123-4567
+          </li>
+          <li>
+            <img src="images/icon-email.svg" alt="">
+            example@fylo.com
+          </li>
+        </ul>
+        <ul class="lista">
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+        <ul class="lista">
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+          </ul>
+        
+        <div class="redes-sociales">
+          <div class="iconos">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+          </div> 
+
+          <div class="iconos">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+            </svg>
+          </div>
+    
+          <div class="iconos">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <rect x="4" y="4" width="16" height="16" rx="4" />
+              <circle cx="12" cy="12" r="3" />
+              <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+            </svg>
+          </div>
+          
+        </div>
+      </div>
+      <div class="pagina-front">
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/camiloCastanoCasas" target="_blank">Juan Camilo Castaño</a>.
+        </p>
+      </div>
+      
+    </div>
+   
+  </footer>
+  <footer>
+    
+  </footer>
+</body>
+</html>
